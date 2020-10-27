@@ -11,3 +11,7 @@ function enqueue_child_styles() {
 
 	wp_enqueue_style( 'child-style', get_stylesheet_directory_uri() . '/style.css', [], $css_creation );
 }
+
+add_filter( 'locale', function() {
+	return 'cs_CZ';
+});
