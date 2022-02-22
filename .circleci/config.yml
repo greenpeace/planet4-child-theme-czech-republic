@@ -31,7 +31,7 @@ job_definitions:
             split=(${reponame//-/ })
             website=${split[3]}
             echo "Website: ${website}"
-            trigger-build.sh "https://${GITHUB_OAUTH_TOKEN}@github.com/greenpeace/planet4-${website}.git" << parameters.pipeline >>
+            trigger-build.sh "https://${GITHUB_OAUTH_TOKEN}@github.com/greenpeace/planet4-${website}-republic.git" << parameters.pipeline >>
 
 jobs:
   trigger-develop:
