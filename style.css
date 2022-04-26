@@ -46,3 +46,8 @@ Text Domain: planet4-child-theme-czech-republic
 .happy-point-block-wrap .happy-point iframe {
     height: 600px;
 }
+
+/* hide reject all cookies */
+.cookie-notice .cookies-intro .reject-all-cookies {
+  display: none;
+}
