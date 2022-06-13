@@ -51,3 +51,11 @@ Text Domain: planet4-child-theme-czech-republic
 .cookie-notice .cookies-intro .reject-all-cookies {
   display: none;
 }
+
+/* hide button and remove min height take action carousel */
+.carousel-about .cover-card-btn {
+    display: none;
+}
+.carousel-about .cover {
+    min-height: 0px;
+}
