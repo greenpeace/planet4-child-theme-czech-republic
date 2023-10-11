@@ -59,3 +59,17 @@ Text Domain: planet4-child-theme-czech-republic
 .carousel-about .cover {
     min-height: 0px;
 }
+/* button-primary and button-donate change color and background */
+:root {
+    --button-primary--background:var(--orange);
+    --button-primary--disabled--background:var(--orange);
+    --button-primary--hover--background:var(--orange-hover);
+    --button-primary--color:var(--white);
+    --button-primary--visited--color:var(--white);
+    --button-primary--hover--color:var(--white);
+    --button-donate--background:var(--orange);
+    --button-doante--background--hover:var(--orange-hover);
+    --button-donate--color:var(--white);
+    --button-donate--visited--color:var(--white);
+    --button-donate--hover--color:var(--white);
+}
