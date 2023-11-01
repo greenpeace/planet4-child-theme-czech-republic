@@ -61,14 +61,14 @@ Text Domain: planet4-child-theme-czech-republic
 }
 /* button-primary and button-donate change color and background */
 :root {
-    --button-primary--background:var(--orange);
-    --button-primary--disabled--background:var(--orange);
-    --button-primary--hover--background:var(--orange-hover);
+    --button-primary--background:#f36b35;
+    --button-primary--disabled--background:#f36b35;
+    --button-primary--hover--background:#ee562d;
     --button-primary--color:var(--white);
     --button-primary--visited--color:var(--white);
     --button-primary--hover--color:var(--white);
-    --button-donate--background:var(--orange);
-    --button-donate--hover--background:var(--orange-hover);
+    --button-donate--background:#f36b35;
+    --button-donate--hover--background:#ee562d;
     --button-donate--color:var(--white);
     --button-donate--visited--color:var(--white);
     --button-donate--hover--color:var(--white);
