@@ -12,40 +12,6 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-czech-republic
 */
 
-@media (min-width: 1200px) {
-    .happy-point-block-wrap .happy-point {
-        padding-top: 60px;
-    }
-}
-
-@media (min-width: 768px) {
-    .happy-point-block-wrap .happy-point {
-        padding-top: 50px;
-    }
-}
-        
-@media (max-width: 768px) { 
-    .happy-point-block-wrap .happy-point {
-        padding-top: 10px;
-    }
-    
-    .happy-point-block-wrap picture {
-        display: none;
-    }
-}
-        
-.happy-point-block-wrap { height: 600px; }
-        
-@media (max-width: 576px) {
-    .happy-point-block-wrap .happy-point iframe {
-        position: relative;
-        min-height: 500px;
-    }
-}
-            
-.happy-point-block-wrap .happy-point iframe {
-    height: 600px;
-}
 
 /* hide reject all cookies */
 .cookie-notice .cookies-intro .reject-all-cookies {
