@@ -39,3 +39,11 @@ Text Domain: planet4-child-theme-czech-republic
     --button-donate--visited--color:var(--white);
     --button-donate--hover--color:var(--white);
 }
+
+/* hide the category tag in the page header of articles */
+.page-header .top-page-tags .tag-wrap.issues {
+    display: none;
+}
+.page-header .top-page-tags .main-tag-chevron {
+    display: none;
+}
