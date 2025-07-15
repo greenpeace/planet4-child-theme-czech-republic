@@ -47,3 +47,12 @@ Text Domain: planet4-child-theme-czech-republic
 .page-header .top-page-tags .main-tag-chevron {
     display: none;
 }
+
+/* remove text truncate in page header */
+.wp-block-media-text.alignfull.is-pattern-p4-page-header p {
+	display: block;
+	-webkit-box-orient: initial;
+	line-clamp: unset;
+	-webkit-line-clamp: unset;
+	overflow: visible;
+}
