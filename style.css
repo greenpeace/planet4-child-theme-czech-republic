@@ -27,17 +27,26 @@ Text Domain: planet4-child-theme-czech-republic
 }
 /* button-primary and button-donate change color and background */
 :root {
-    --button-primary--background:#f36b35;
-    --button-primary--disabled--background:#f36b35;
-    --button-primary--hover--background:#ee562d;
-    --button-primary--color:var(--white);
-    --button-primary--visited--color:var(--white);
-    --button-primary--hover--color:var(--white);
-    --button-donate--background:#f36b35;
-    --button-donate--hover--background:#ee562d;
-    --button-donate--color:var(--white);
-    --button-donate--visited--color:var(--white);
-    --button-donate--hover--color:var(--white);
+  --orange: #f36b35;
+  --orange--dark: #ee562d;
+
+  --color-background-button--primary--passive: var(--orange);
+  --color-background-button--primary--hover: var(--orange--dark);
+  --color-background-button--primary--active: var(--orange--dark);
+  --color-background-button--primary--disabled: var(--orange--dark);
+  --color-text-button--primary: var(--white);
+
+  --color-background-button--donate--passive: var(--orange);
+  --color-background-button--donate--hover: var(--orange--dark);
+  --color-text-button--donate: var(--white);
+  --color-text-button--donate--hover: var(--white);
+  --color-text-button--donate--visited: var(--white);
+
+  --color-background-button--cta--passive: var(--orange);
+  --color-background-button--cta--hover: var(--orange--dark);
+  --color-background-button--cta--active: var(--orange--dark);
+  --color-background-button--cta--disabled: var(--orange--dark);
+  --color-text-button--cta: var(--white);
 }
 
 /* hide the category tag in the page header of articles */
