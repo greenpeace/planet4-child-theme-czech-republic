@@ -33,6 +33,7 @@ Text Domain: planet4-child-theme-czech-republic
   --color-background-button--primary--passive: var(--orange);
   --color-background-button--primary--hover: var(--orange--dark);
   --color-background-button--primary--active: var(--orange--dark);
+  --color-background-button--primary--disabled: var(--orange);
   --color-text-button--primary: var(--white);
 
   --color-background-button--donate--passive: var(--orange);
@@ -44,6 +45,7 @@ Text Domain: planet4-child-theme-czech-republic
   --color-background-button--cta--passive: var(--orange);
   --color-background-button--cta--hover: var(--orange--dark);
   --color-background-button--cta--active: var(--orange--dark);
+  --color-background-button--cta--disabled: var(--orange);
   --color-text-button--cta: var(--white);
 }
 
