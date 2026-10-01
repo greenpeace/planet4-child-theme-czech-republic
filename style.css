@@ -13,9 +13,9 @@ Text Domain: planet4-child-theme-czech-republic
 */
 
 
-/* hide reject all cookies */
-.cookie-notice .cookies-intro .reject-all-cookies {
-  display: none;
+/* hide P4 cookie-notice - replaced with CookieBot */
+#set-cookie {
+  display: none !important;
 }
 
 /* hide button and remove min height take action carousel */
