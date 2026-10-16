@@ -67,7 +67,7 @@ Text Domain: planet4-child-theme-czech-republic
 }
 
 /* remove legend from Gravity form RWC page */
-.rwc-contact-form .gform_required_legend {
+.rwc-contact-form_wrapper .gform_required_legend {
     display: none;
 }
 
